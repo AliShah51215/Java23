@@ -1,13 +1,11 @@
 package pl.marczak;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello Future Collars!" );
-    }
+import pl.marczak.lesson4.example.Car;
+
+public class App {
+  public static void main(String[] args) {
+
+    Car car = new Car();
+  }
+
 }
